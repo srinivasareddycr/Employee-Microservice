@@ -9,7 +9,7 @@ public class Employee {
 	
 
 	
-	private long eId;
+	private Long eId;
 	private String name;
 	private String phone;
 	
@@ -17,12 +17,12 @@ public class Employee {
 	List<Record> records = new ArrayList<>();
 
 
-	public long geteId() {
+	public Long geteId() {
 		return eId;
 	}
 
 
-	public void seteId(long eId) {
+	public void seteId(Long eId) {
 		this.eId = eId;
 	}
 
@@ -57,7 +57,7 @@ public class Employee {
 	}
 
 
-	public Employee(long eId, String name, String phone) {
+	public Employee(Long eId, String name, String phone) {
 		super();
 		this.eId = eId;
 		this.name = name;
